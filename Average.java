@@ -17,8 +17,6 @@ public class Average {
             user_number = scan.nextInt();
         }
         if(user_number < 0){
-            counter++;
-            total = total + user_number;
             System.out.println("You have entered " + counter + " numbers, averaging " + total/counter );
         }  
     }
